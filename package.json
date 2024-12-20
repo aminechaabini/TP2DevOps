@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_devops_demo_project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "minimatch": "^3.0.4",
+    "mocha": "^11.0.1"
+  }
+}
